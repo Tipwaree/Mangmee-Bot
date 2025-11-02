@@ -42,19 +42,19 @@ Project's Title : Mangmee-Bot
    - ตั้งค่า Pin 2 เป็น OUTPUT และ Pin 3 เป็น INPUT
    - เริ่มต้น LCD และสร้างตัวอักษรพิเศษ (Custom Characters) สำหรับทำ Animation รูปปาก
 3. loop():
-  -  วัดระยะทาง: ส่งคลื่นจาก TRIG รับคลื่นที่ ECHO คำนวณระยะทางเป็นเซนติเมตร
-  - เงื่อนไขการเปิดฝา:
-    - ถ้า $2 \text{ cm} < \text{distance} \le 10 \text{ cm}$ และ ฝายังปิดอยู่ (!lidOpen):
-      - สั่ง Servo ไปที่ $0^\circ$ (ฝาเปิด)
-      - ตั้งค่า lidOpen = true
-      - แสดงผล "Mmm Yummy :)" บน LCD
-  - เงื่อนไขการปิดฝา:
-    - ถ้า $\text{distance} > 10 \text{ cm}$ หรือ $\text{distance} \le 0 \text{ cm}$ และ ฝายังเปิดอยู่ (lidOpen):
-      - สั่ง Servo ไปที่ $90^\circ$ (ฝาปิด)
-      - ตั้งค่า lidOpen = false
-      - เคลียร์ LCD
+   -  วัดระยะทาง: ส่งคลื่นจาก TRIG รับคลื่นที่ ECHO คำนวณระยะทางเป็นเซนติเมตร
+   - เงื่อนไขการเปิดฝา:
+      - ถ้า $2 \text{ cm} < \text{distance} \le 10 \text{ cm}$ และ ฝายังปิดอยู่ (!lidOpen):
+         - สั่ง Servo ไปที่ $0^\circ$ (ฝาเปิด)
+         - ตั้งค่า lidOpen = true
+         - แสดงผล "Mmm Yummy :)" บน LCD
+   - เงื่อนไขการปิดฝา:
+      - ถ้า $\text{distance} > 10 \text{ cm}$ หรือ $\text{distance} \le 0 \text{ cm}$ และ ฝายังเปิดอยู่ (lidOpen):
+         - สั่ง Servo ไปที่ $90^\circ$ (ฝาปิด)
+         - ตั้งค่า lidOpen = false
+         - เคลียร์ LCD
   - Animation(เมื่อฝาปิด):
-     - ถ้าฝาปิดอยู่ (!lidOpen): สลับการแสดงผลระหว่าง drawMouthClosed() และ drawMouthOpen() เพื่อทำ Animation ปากขยับ
+      - ถ้าฝาปิดอยู่ (!lidOpen): สลับการแสดงผลระหว่าง drawMouthClosed() และ drawMouthOpen() เพื่อทำ Animation ปากขยับ
 
 # Project Website
    - https://tipwaree.github.io/Mangmee-Bot-Web/
