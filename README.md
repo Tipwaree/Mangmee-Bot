@@ -59,7 +59,7 @@ Project's Title : Mangmee Bot
 # Project Website
    - https://tipwaree.github.io/Mangmee-Bot-Web/
 
-# Project Demo Video
+# Project Presentation Video
    - https://youtu.be/2Qgd8WaeAIk?si=Ad2QAM0sVo7Bhxy5
 
 # Project Poster
