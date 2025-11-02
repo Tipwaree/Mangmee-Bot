@@ -53,7 +53,8 @@ Project's Title : Mangmee-Bot
       - สั่ง Servo ไปที่ $90^\circ$ (ฝาปิด)
       - ตั้งค่า lidOpen = false
       - เคลียร์ LCD
-  - Animation(เมื่อฝาปิด):ถ้าฝาปิดอยู่ (!lidOpen): สลับการแสดงผลระหว่าง drawMouthClosed() และ drawMouthOpen() เพื่อทำ Animation ปากขยับ
+  - Animation(เมื่อฝาปิด):
+     - ถ้าฝาปิดอยู่ (!lidOpen): สลับการแสดงผลระหว่าง drawMouthClosed() และ drawMouthOpen() เพื่อทำ Animation ปากขยับ
 
 # Project Website
    - https://tipwaree.github.io/Mangmee-Bot-Web/
