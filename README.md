@@ -61,8 +61,9 @@ Project's Title : Mangmee-Bot
 
 # Project Demo Video
    - https://youtu.be/2Qgd8WaeAIk?si=Ad2QAM0sVo7Bhxy5
+
 # Project Poster
-   - ![Infographic](https://github.com/Tipwaree/Mangmee-Bot/blob/main/img/Poster%20Mangmee%20bot.png?raw=true)
+![Infographic](https://github.com/Tipwaree/Mangmee-Bot/blob/main/img/Poster%20Mangmee%20bot.png?raw=true)
 
 #  สมาชิกในกลุ่ม (Team Members)
 |Student ID|Name|
